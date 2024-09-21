@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  position:relative;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  
+}.container img{
+  height: 50px;
+  width: 50px;
+  margin-left: 60%;
+  background-size: cover;
+  border-radius: 50%;
+  padding-top: 2px;
+  margin-right: 20px;
+
+}
+#mySidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+
+  }
+  
+  /* Style sidebar links */
+  #mySidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display:block;
+  }
+  /* #mySidebar i{
+    position: relative;
+    left: 10px;
+  } */
+  
+  /* Style links on mouse-over */
+  #mySidebar a:hover {
+    color: #f1f1f1;
+  /* }.container #mySidebar{
+    margin-left: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px; */
+  }
+  
+  /* Style the main content */
+  /* .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+   */
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    #mySidebar {padding-top: 15px;}
+    #mySidebar a {font-size: 18px;}
+  }
+  .profilepart{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }.profilepart.pic{
+    height: 200px;
+    width: 200px;
+  }
+  .profilepart img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  .me{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }.details{
+    height: 200px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .icons{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .icons a i{
+    font-size: 30px;
+    margin-left: 10px;
+    
+  }
+  .pera{
+   text-align: center;
+   font-size: 30px;
+  }

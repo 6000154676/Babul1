@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  position:relative;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ ;
+
+  
+}.container img{
+  height: 50px;
+  width: 50px;
+  margin-left: 60%;
+  background-size: cover;
+  border-radius: 50%;
+  padding-top: 2px;
+  margin-right: 20px;
+
+}
+#mySidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+
+  }
+  
+  /* Style sidebar links */
+  #mySidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display:block;
+  }
+  /* #mySidebar i{
+    position: relative;
+    left: 10px;
+  } */
+  
+  /* Style links on mouse-over */
+  #mySidebar a:hover {
+    color: #f1f1f1;
+  /* }.container #mySidebar{
+    margin-left: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px; */
+  }
+  
+  /* Style the main content */
+  /* .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+   */
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    #mySidebar {padding-top: 15px;}
+    #mySidebar a {font-size: 18px;}
+  }
+  .head{
+    margin-left: 45%;
+    font-size: 35px;
+  }
+  .atm{
+   height: 300px;
+   width: 30%;
+   padding: 20px 20px 20px 20px;
+   border: 1px solid rgb(155, 130, 130);
+   border-radius: 5px;
+   margin-left: 33%;
+   /* display: flex; */
+   position: relative;
+   justify-content: center;
+   box-shadow: 10px #818181;
+
+  }
+  .link1{
+    
+    margin-left: 41%;
+    text-decoration: none;
+
+  }
+  .resturant{
+    height: 360px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgb(155, 130, 130);
+    border-radius: 5px;
+    margin-left: 33%;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    box-shadow: 10px #818181;
+ 
+   }
+   .link2{
+    
+    margin-left: 41%;
+    text-decoration: none;
+
+  }
+  .voiceConverter{
+    height: 300px;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgb(155, 130, 130);
+    border-radius: 5px;
+    margin-left: 33%;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    box-shadow: 10px #818181;
+ 
+   }
+   .link3{
+    
+    margin-left: 41%;
+    text-decoration: none;
+
+  }

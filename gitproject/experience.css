@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.exp{
+    margin-left: 50%;
+    margin-right: 50%;
+}.container{
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  position:relative;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  
+}.container img{
+  height: 50px;
+  width: 50px;
+  margin-left: 60%;
+  background-size: cover;
+  border-radius: 50%;
+  padding-top: 2px;
+  margin-right: 20px;
+
+}
+.Teaching{
+height: 500px;
+width: 400px;
+border: 3px solid black;
+box-shadow: 5px;
+padding-left: 10px;
+border-radius: 15px;
+background-color: azure;
+box-shadow: 10px;
+margin-left: 40%;
+margin-right: 40%;
+}
+ul li{
+    list-style-type: circle;
+    color: darkred;
+    margin-left: 20px;
+}
+.btn{
+    
+    display: flex;
+    justify-content: space-around;
+  
+}
+.btn.div1{
+    height: 20px;
+    width: 30px;
+    background-color: azure;
+}.btn.div2{
+    height: 20px;
+    width: 30px;
+    background-color: azure;
+}.btn.div3{
+    height: 20px;
+    width: 30px;
+    background-color: azure;
+}.btn.div4{
+    height: 20px;
+    width: 30px;
+    background-color: azure;
+}.btn.div5{
+    height: 20px;
+    width: 30px;
+    background-color: azure;
+}
+/* hjjj */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#mySidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+
+  }
+  
+  /* Style sidebar links */
+  #mySidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display:block;
+  }
+  #mySidebar i{
+    position: relative;
+    left: 10px;
+  }
+  
+  /* Style links on mouse-over */
+  #mySidebar a:hover {
+    color: #f1f1f1;
+  }.container #mySidebar{
+    margin-left: 10%;
+  }
+  
+  /* Style the main content */
+  /* .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+   */
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    #mySidebar {padding-top: 15px;}
+    #mySidebar a {font-size: 18px;}
+  }
+  /* .profilepart{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }.profilepart.pic{
+    height: 200px;
+    width: 200px;
+  }
+  .profilepart img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  .me{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
